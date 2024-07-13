@@ -73,8 +73,8 @@ html, body {
 }
 
 #hero-image {
-    /* background-color: orange; */
     height: 90vh;
     width: 100%;
     background-image: url("./img/1.webp");
+    background-size: cover;
 }
