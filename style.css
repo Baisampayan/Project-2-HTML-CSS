@@ -211,7 +211,7 @@ html, body {
     padding: 2rem 0rem;
 }
 
-#hero-camera, #hero-noise {
+#hero-camera, #hero-noise, #hero-robot {
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -224,7 +224,7 @@ html, body {
     background-image: url("./img/2.webp");
 }
 
-#hero-camera i, #hero-noise i {
+#hero-camera i, #hero-noise i, #hero-robot i {
     font-size: 40px;
     font-weight: 500;
     color: #ffffff;
@@ -233,7 +233,7 @@ html, body {
     border-radius: 50%;
 }
 
-.camera-sec, .noise-sec {
+.camera-sec, .noise-sec, .robot-sec {
     height: 30vh;
     padding: 4rem;
     display: flex;
@@ -277,4 +277,8 @@ html, body {
 
 #hero-noise {
     background-image: url("./img/3.webp");
+}
+
+#hero-robot {
+    background-image: url("./img/4.webp");
 }
