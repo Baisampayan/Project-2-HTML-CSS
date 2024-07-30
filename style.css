@@ -365,3 +365,48 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.footer-menu {
+    padding: 3rem 4rem;
+    background-color: #1e1e20;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    color: #f5f3ef99;
+    font-family: Inter, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+li {
+    list-style: none;
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: -.5px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.footer-menu-cta-btn {
+    margin-top: 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.footer-copyright {
+    padding: 1rem 0rem 2rem 0rem;
+    background-color: #1e1e20;
+    color: #ffffff;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
